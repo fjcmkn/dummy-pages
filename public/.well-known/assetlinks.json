@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "ca.knowledge.kapp",
+      "sha256_cert_fingerprints": [
+        "B8:9C:71:E2:6B:40:B3:18:B0:CA:69:2A:42:F7:82:4F:1F:A3:F5:CD:6C:07:5A:12:EF:F5:DC:89:8B:4D:43:83"
+      ]
+    }
+  }
+]
