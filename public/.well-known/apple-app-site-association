@@ -1,0 +1,42 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "WT9QW53774.com.knowledge.demoApp"
+        ],
+        "components": [
+          {
+            "#": "no_universal_links",
+            "exclude": true,
+            "comment": "Matches any URL with a fragment that equals no_universal_links and instructs the system not to open it as a universal link."
+          },
+          {
+            "/": "/program/*",
+            "comment": "Matches any URL with a path that starts with /program/."
+          },
+          {
+            "/": "/program/*",
+            "comment": "Matches any URL with a path that starts with /program/."
+          },
+          {
+            "/": "/documentaries",
+            "comment": "Matches any URL with a path that starts with /documentaries/."
+          },
+          {
+            "/": "/landing-pages/*",
+            "comment": "Matches any URL with a path that starts with /landing-pages/ and includes an ID."
+          },
+          {
+            "/": "/login",
+            "comment": "Matches the login page exactly."
+          },
+          {
+            "/": "/collection/*",
+            "comment": "Matches any URL with a path that starts with /collection/ and includes an ID."
+          }
+        ]
+      }
+    ]
+  }
+}
